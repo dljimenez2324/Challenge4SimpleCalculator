@@ -11,9 +11,10 @@ function clearView(){
     document.getElementById("solution").value = "";
 }
 
+
 //This function will calculate whats in the input display
 function calculate(){
     let getValue = document.getElementById("solution").value;
-    let answer = eval(getValue);
+    let answer = new Function(getValue);  // this has to be modified as it doesnt work the same way as eval()
     document.getElementById("solution").value = answer;
 }
