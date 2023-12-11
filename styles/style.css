@@ -4,25 +4,22 @@ body {
     font-weight: bold;
 }
 
-/* #displayField {
-    border-color: black !important;
-    border: 1px !important;
-    
-} */
-
-.flexItBuddy {
+.inputBoxStyle {
     display: flex;
     justify-content: center;
+    margin: 1rem;
+}
 
+.inputField {
+    display: flex;
+    width: 10rem;
+    justify-content: end;
 }
 
 .calculatorGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border-collapse: collapse;
     gap: 2%;
-
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 .btn {
@@ -37,6 +34,6 @@ body {
     margin-right: auto;
     padding-left: 42.5%;
     padding-right: 42.5%;
-    margin-top: 2%;
+    margin-top: 12px;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
